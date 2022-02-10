@@ -1,6 +1,7 @@
 import Discovery from "@/pages/Discovery"
 import Mine from "@/pages/Mine"
 import Friend from "@/pages/Friend"
+import TestPlayer from "@/pages/TestPlayer"
 
 const routes = [
   {
@@ -17,6 +18,11 @@ const routes = [
     path: '/friend',
     exact: true,
     component: Friend
+  },
+  {
+    path: '/player',
+    exact: true,
+    component: TestPlayer
   }
 
 ]
